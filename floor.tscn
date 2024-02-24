@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://dp58edljg5wwj"]
+
+[ext_resource type="Texture2D" uid="uid://d4mqayfqomg4p" path="res://kenney_jumper-pack/PNG/Environment/ground_grass.png" id="1_rwfjm"]
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_a7roa"]
+a = Vector2(-184, -48)
+b = Vector2(192, -48)
+
+[node name="floor" type="StaticBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_rwfjm")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("SegmentShape2D_a7roa")
