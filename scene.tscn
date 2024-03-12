@@ -39,4 +39,3 @@ texture = ExtResource("6_5i4um")
 
 [node name="floor" parent="." instance=ExtResource("6_siqej")]
 position = Vector2(-630, 605)
-scale = Vector2(1.88, 1)
